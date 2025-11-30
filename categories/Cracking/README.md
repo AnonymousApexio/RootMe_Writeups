@@ -21,7 +21,7 @@ To successfully tackle these challenges, one should be familiar with:
 - Anti-debugging bypass
 - Code obfuscation reversal
 
-## 🗂️ Challenge Types
+## 📚 Challenge Types
 The category includes challenges across various platforms and architectures:
 - **ELF** (Linux binaries)
 - **PE** (Windows executables) 

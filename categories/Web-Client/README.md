@@ -10,7 +10,7 @@ To successfully tackle these challenges, one should be familiar with:
 - Web application fundamentals
 - Basic understanding of web security concepts
 
-## 🗂️ Challenge Types
+## 📚 Challenge Types
 This category covers various client-side vulnerabilities including:
 - **JavaScript Analysis & Obfuscation** - Deobfuscating and understanding hidden code
 - **XSS (Cross-Site Scripting)** - DOM-based, stored, and reflected XSS

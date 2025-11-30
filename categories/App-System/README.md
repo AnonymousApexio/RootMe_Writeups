@@ -14,7 +14,7 @@ To successfully complete these challenges, one should be familiar with:
 - **Know C programming language** and memory management concepts
 - **Understand exploitation mechanisms** of system vulnerabilities
 
-## 🗂️ Covered Vulnerability Types
+## 📚 Covered Vulnerability Types
 - **Stack buffer overflow** - Buffer overflow on the stack
 - **Heap overflow** - Buffer overflow on the heap
 - **Format string bugs** - Format string vulnerabilities

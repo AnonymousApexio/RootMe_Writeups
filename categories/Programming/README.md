@@ -15,7 +15,7 @@ This category tests my ability to:
 - Solve CAPTCHA and computer vision challenges
 - Handle network protocols and data compression
 
-### 🗂️ Challenge Types
+### 📚 Challenge Types
 The programming challenges encompass several domains:
 - **Network Programming** - TCP protocols, data encoding, compression
 - **Cryptography & Encoding** - Multiple encoding schemes, polynomial solvers
