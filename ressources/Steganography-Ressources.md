@@ -38,7 +38,7 @@
 - **qpdf** - PDF transformation software
 
 ### ELF/Binary Analysis
-See [Cracking-ressources.md](Cracking-ressources.md)
+See [Cracking-ressources.md](Cracking-Ressources.md)
 
 ## 🔧 Programming & Scripting Tools
 
