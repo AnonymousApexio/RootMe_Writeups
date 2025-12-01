@@ -13,6 +13,7 @@ uudecode
 ```bash
 john
 hashcat
+hashid # Identify hashes formats
 ```
 **Specific formats:**
 - **LM/NT/DCC/DCC2:** John, Hashcat

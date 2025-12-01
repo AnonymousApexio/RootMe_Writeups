@@ -17,8 +17,8 @@ RootMe is a platform for learning offensive cybersecurity through hands-on chall
 | [Programming](categories/Programming/) | 🟡 Planning | 0 | [Resources](ressources/Programming-Ressources.md) | Programming and algorithmic challenges |
 | [Realist](categories/Realist/) | 🟡 Planning | 0 | [Resources](ressources/Realist-Ressources.md) | Real-world scenarios |
 | [Steganography](categories/Steganography/) | 🟡 Planning | 0 | [Resources](ressources/Steganography-Ressources.md) | Hidden data challenges |
-| [Web-Client](categories/Web-Client/) | 🟡 Planning | 0 | [Resources](ressources/Web-Client-Ressources.md) | Client-side web vulnerabilities |
-| [Web-Server](categories/Web-Server/) | 🟡 Planning | 0 | [Resources](ressources/Web-Server-Ressources.md) | Server-side web vulnerabilities |
+| [Web-Client](categories/Web-Client/) | 🟡 Planning | 1 | [Resources](ressources/Web-Client-Ressources.md) | Client-side web vulnerabilities |
+| [Web-Server](categories/Web-Server/) | 🟡 Planning | 3 | [Resources](ressources/Web-Server-Ressources.md) | Server-side web vulnerabilities |
 
 ## 📖 How to Use
 1. Browse by category
