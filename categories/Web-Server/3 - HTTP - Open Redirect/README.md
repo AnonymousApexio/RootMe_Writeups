@@ -26,7 +26,7 @@ Identifying what "h" is. At first glance it looked like an hex value so I used C
 
 So I used an hash identfier tool called "hashid" (See [Cryptanalysis.md](../../../ressources/Cryptanalysis-Ressources.md))
 ```bash
-└─$ hashid -e HASH
+└─$ hashid <parameter> HASH
 Analyzing 'HASH'
 <TRUNCATED>
 [+] <HASH>
@@ -38,12 +38,12 @@ From this, I knew the hash was <HASH format>.
 ### Step 2: 
 Next, I just had to somehow change the redirection value to my own.
 
-For this I used burpsuit:
+For this I used burpsuit: (You can also totally just modify the hard coded values in the HTML, little problem, it skips the flag too fast to take it)
 ![Burpsuit Image](screen2.png)
 
 I just had to change the "?url=" and "&h=" values to what I wanted, so I hashed "A" into <HASH format> format, put "A" in the URL parameter and the hash into the "h" parameter.
 
-?url=A&h=7fc56270e7a70fa81a5935b72eacbe29
+?url=A&h=<HASH format>
 
 ### Step 3:
 Extract the flag from the response. 

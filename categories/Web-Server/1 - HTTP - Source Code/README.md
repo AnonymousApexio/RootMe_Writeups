@@ -23,9 +23,8 @@ Press CTRL+U
 
 ### Step 2: 
 Scan through the HTML code till you fall on a few commented lines, the password will be in those lines.
+In a comment:
 <!--
-Je crois que c'est vraiment trop simple là !
-It's really too easy 
 XXXXXXXXXXXXXXXXXXXX
 -->
 

@@ -34,7 +34,7 @@ Open the command line on your operating system.
 ### Step 2: 
 Use the -H option to enter the headers you want
 ```bash
-curl -H "X-Forwarded-For: XXXXXX" http://challenge01.root-me.org/web-serveur/ch68/
+curl -H "<A certain non-standard-header>: XXXXXX" http://challenge01.root-me.org/web-serveur/ch68/
 ```
 
 ### Step 3:
