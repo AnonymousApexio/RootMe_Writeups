@@ -14,3 +14,7 @@ Through this module, I am "learning" to be able to decipher cybersecurity techni
 |-----------|--------|------------|-------------|
 | [Notions - CVE 1](./Notions-CVE-1/) | 🔵 Finished | [Ressources]() | Common Vulnerabilities and Exposure |
 | [Notions - CVE 2](./Notions-CVE-2/) | 🔵 Finished | [Ressources]() | Common Vulnerabilities and Exposures 2 |
+| [Notions - CVSS](./Notions-CVSS) | 🔵 Finished | [Ressources]() | Common Vulnerabilities Scoring System |
+| [Notions - CWE](./Notions-CWE) | 🔵 Finished | [Ressources]() | Common Weakness Enumeration |
+| [Notions - CPE](./Notions-CPE/) | 🔵 Finished | [Ressources]() | Common Platform Enumeration |
+| [Notions - MITRE ATT&CK](./Notions-ATT&ACK) | 🔵 Finished | [Ressources]() | Mastering ATT&ACK |

@@ -9,7 +9,7 @@ This category of challenges aims to challenge myself in:
 - Exploiting the HTTP protocol
 - Analyzing the mechanisms used by a web server
 
-## ## 🛠️ Required Skills
+## 🛠️ Required Skills
 To tackle these challenges, it is recommended to:
 - Know a backend web language (PHP, Python, JavaScript, etc.)
 - Master the basics of SQL

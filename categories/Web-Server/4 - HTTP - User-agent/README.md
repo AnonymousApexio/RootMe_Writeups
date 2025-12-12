@@ -1,7 +1,5 @@
 # HTTP - User-agent
-**Category:** Web-Server 
-**Points:** 10
-**Difficulty:** Very Easy  
+**Category:** Web-Server | **Points:** 10 | **Difficulty:** Very Easy  
 **Link:** https://www.root-me.org/en/Challenges/Web-Server/HTTP-User-agent
 
 ## 📋 Description:

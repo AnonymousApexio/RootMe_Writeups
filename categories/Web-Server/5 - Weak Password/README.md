@@ -9,6 +9,7 @@ Nothing too difficult
 
 ## 🔍 Reconnaissance:
 1. Used Wappanalyzer to identify the technologies in the website.
+
 ![Image of the technologies](image.png)
 
 ## 🛠️ Tools Used:
