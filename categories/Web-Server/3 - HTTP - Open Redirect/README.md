@@ -1,6 +1,6 @@
 # HTTP - Open redirect
-**Category:** Web-Server 
-**Points:** 10
+**Category:** Web-Server   
+**Points:** 10  
 **Difficulty:** Very Easy  
 **Link:** https://www.root-me.org/en/Challenges/Web-Server/HTTP-IP-restriction-bypass
 
@@ -8,7 +8,7 @@
 Internet is so big, the point is to find a way to make a redirection to a domain other than those showed on the web page.
 
 ## 🔍 Reconnaissance:
-1. Opened the challenge page 
+1. Opened the challenge page  
 ![Image of the page](screen.png)
 2. CTRL+U
 3. Scanned through the HTML code and saw links towards external websites in the format:
@@ -33,7 +33,7 @@ Analyzing 'HASH'
 </TRUNCATED>
 ```
 
-From this, I knew the hash was <HASH format>.
+From this, I knew the hash was <span color="green">HASH format</span>.
 
 ### Step 2: 
 Next, I just had to somehow change the redirection value to my own.
@@ -41,19 +41,20 @@ Next, I just had to somehow change the redirection value to my own.
 For this I used burpsuit: (You can also totally just modify the hard coded values in the HTML, little problem, it skips the flag too fast to take it)
 ![Burpsuit Image](screen2.png)
 
-I just had to change the "?url=" and "&h=" values to what I wanted, so I hashed "A" into <HASH format> format, put "A" in the URL parameter and the hash into the "h" parameter.
+I just had to change the "<kbd>?url=</kbd>" and "<kbd>&h=</kbd>" values to what I wanted, so I hashed "A" into <kbd>HASH format</kbd> format, put "A" in the URL parameter and the hash into the "<kbd>h</kbd>" parameter.
 
-?url=A&h=<HASH format>
+?url=<kbd>A</kbd>&h=<kbd>HASH format</kbd>
 
 ### Step 3:
 Extract the flag from the response. 
+```html
 <p>
     Well done, the flag is XXXXXXX
 </p>
 <script>
     document.location = 'A';
 </script>
-
+```
 ### Step 4:
 Solve the challenge.
 

@@ -1,6 +1,7 @@
 # HTTP - IP Restriction Bypass
-**Category:** Web-Server 
-**Points:** 10
+---
+**Category:** Web-Server  
+**Points:** 10  
 **Difficulty:** Very Easy  
 **Link:** https://www.root-me.org/en/Challenges/Web-Server/HTTP-IP-restriction-bypass
 

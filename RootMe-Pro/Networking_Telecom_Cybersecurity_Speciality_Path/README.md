@@ -14,4 +14,4 @@ Through this course, participants will acquire the fundamental technical skills 
 ## 📚 Modules
 | Module | Status | Challenges Completed | Ressources | Description |
 |----------|--------|---------------------|-----------|--------------|
-| [Cybersecurity Basics](./Cybersecurity-Basics/) | 🔵 Finished | 6 | [Ressources](ressources/App-Script-Ressources.md) | Vulnerability Analysis Basics |
+| [Cybersecurity Basics](./General-Cybersecurity/Cybersecurity-Basics/) | 🔵 Finished | 6 | [Ressources](ressources/App-Script-Ressources.md) | Vulnerability Analysis Basics |
