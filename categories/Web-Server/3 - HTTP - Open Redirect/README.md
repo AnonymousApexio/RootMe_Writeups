@@ -34,7 +34,7 @@ Analyzing '<HASH>'
 </TRUNCATED>
 ```
 
-From this, I knew the hash was <<span style="color:green">HASH format</span>>.
+From this, I knew the hash was `<HASH format>`.
 
 ### Step 2: 
 Next, I just had to somehow change the redirection value to my own.
