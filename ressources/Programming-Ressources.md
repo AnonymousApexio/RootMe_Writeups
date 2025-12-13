@@ -3,7 +3,7 @@ For the RootMe programming challenges, you'll need a variety of tools depending 
 ## 🐍 Core Programming Languages
 
 ### Python (Most Recommended)
-```bash
+```yaml
 # Web
 requests 
 beautifulsoup4
@@ -32,7 +32,7 @@ opencv-python
 ```
 
 ### JavaScript/Node.js
-```bash
+```yaml
 axios
 cheerio
 web3
@@ -55,7 +55,7 @@ crypto-js
   - Wireshark for packet analysis
 
 ### Encoding/Encryption Challenges
-```bash
+```yaml
 # Common libraries
 base64
 binascii
@@ -65,14 +65,14 @@ hashlib
 ```
 
 ### Web Scraping (Apprenti Scraper)
-```bash
+```yaml
 requests
 bs4
 selenium  # For JavaScript-heavy sites
 ```
 
 ### Ethereum/Smart Contract Challenges
-```bash
+```yaml
 # Essential tools
 web3
 eth-tester
@@ -96,7 +96,7 @@ hardhat
   - WinDbg (for Windows challenges)
 
 ### Deep Learning Challenges
-```bash
+```yaml
 # TensorFlow ecosystem
 tensorflow
 tensorflow-gpu
@@ -115,7 +115,7 @@ adversarial-robustness-toolbox
 ```
 
 ### CAPTCHA Challenges
-```bash
+```yaml
 pytesseract
 PIL
 cv2
@@ -123,7 +123,7 @@ numpy
 ```
 
 ### Mathematical Challenges
-```bash
+```yaml
 numpy
 sympy
 math

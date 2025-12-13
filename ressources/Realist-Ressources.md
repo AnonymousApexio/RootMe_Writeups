@@ -1,7 +1,7 @@
 ## 🛠️ Essential Tool Categories
 
 ### 1. **Reconnaissance & Enumeration**
-```bash
+```yaml
 # Network Scanning
 nmap                    # Network discovery and security auditing
 masscan                 # Fast port scanner
@@ -24,7 +24,7 @@ snmpwalk                # SNMP enumeration
 ```
 
 ### 2. **Web Application Testing**
-```bash
+```yaml
 # Proxies
 burpsuite               # Web vulnerability scanner & proxy
 owasp-zap               # OWASP Zed Attack Proxy
@@ -42,13 +42,13 @@ postman                 # API testing
 ```
 
 ### 3. **Exploitation Frameworks**
-```bash
+```yaml
 metasploit-framework    # Penetration testing framework
 searchsploit            # Exploit database search
 ```
 
 ### 4. **Password Attacks**
-```bash
+```yaml
 hydra                   # Login cracker
 medusa                  # Parallel login brute forcer
 john                    # John the Ripper password cracker
@@ -58,7 +58,7 @@ cewl                    # Custom wordlist generator from websites
 ```
 
 ### 5. **Network & Traffic Analysis**
-```bash
+```yaml
 wireshark               # Network protocol analyzer
 tcpdump                 # Command line packet analyzer
 ettercap                # Man-in-the-middle attacks
@@ -66,7 +66,7 @@ responder               # LLMNR/NBT-NS/mDNS poisoner
 ```
 
 ### 6. **Reverse Engineering**
-```bash
+```yaml
 ghidra                  # Software reverse engineering suite
 radare2                 # Unix-like reverse engineering framework
 cutter                  # GUI for radare2
@@ -75,7 +75,7 @@ pwntools                # CTF framework for Python
 ```
 
 ### 7. **Forensics & Steganography**
-```bash
+```yaml
 binwalk                 # Firmware analysis tool
 foremost                # File recovery tool
 steghide                # Steganography tool
@@ -85,7 +85,7 @@ file                    # File type identification
 ```
 
 ### 8. **Wireless & Mobile**
-```bash
+```yaml
 aircrack-ng            # WiFi security auditing
 apktool                # Reverse engineering Android apps
 jadx                   # Dex to Java decompiler
@@ -93,7 +93,7 @@ frida                  # Dynamic instrumentation toolkit
 ```
 
 ### 9. **Post-Exploitation**
-```bash
+```yaml
 linpeas.sh              # Linux privilege escalation script
 winpeas.exe             # Windows privilege escalation
 mimikatz                # Windows credential extraction
@@ -102,7 +102,7 @@ impacket-scripts        # Network protocols Python scripts
 ```
 
 ### 10. **Programming & Scripting**
-```bash
+```yaml
 python3                 # General purpose scripting
 python3-pip             # Python package manager
 gcc                     # C compiler
@@ -113,7 +113,7 @@ php                     # PHP interpreter
 ```
 
 ### 11. **Container & Cloud**
-```bash
+```yaml
 docker                  # Container platform
 kubectl                 # Kubernetes command line
 aws-cli                 # AWS command line
@@ -121,7 +121,7 @@ terraform               # Infrastructure as code
 ```
 
 ### 12. **Miscellaneous Essentials**
-```bash
+```yaml
 netcat                  # Networking utility
 socat                   # Multipurpose relay
 openssl                 # Cryptography toolkit
@@ -134,28 +134,28 @@ vim/nano                # Text editors
 ## 📋 Specialized Tools for Specific Challenge Types
 
 ### **For Windows AD Challenges**
-```bash
+```yaml
 bloodhound.py           # AD relationship mapper
 crackmapexec            # AD penetration testing tool
 ldapdomaindump          # AD information dumper
 ```
 
 ### **For Container Challenges**
-```bash
+```yaml
 docker                  # Container management
 trivy                   # Container vulnerability scanner
 dockerscan              # Docker security analysis
 ```
 
 ### **For Crypto Challenges**
-```bash
+```yaml
 python3-crypto          # Cryptographic functions
 python3-gmpy2           # Mathematics library
 rsactftool              # RSA tool for CTFs
 ```
 
 ### **For Mobile Challenges**
-```bash
+```yaml
 apktool                 # Android APK analysis
 jadx                    # Dex decompiler
 frida                   # Dynamic instrumentation

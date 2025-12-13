@@ -45,7 +45,7 @@ Every browsers I use is here: [list of browsers](https://github.com/cliffordfaja
 ## 📝 **JavaScript-Specific Tools**
 
 ### Analysis & Reverse Engineering
-```bash
+```yaml
 # Node.js for local JavaScript execution
 node --inspect script.js  # Debug with Chrome DevTools
 

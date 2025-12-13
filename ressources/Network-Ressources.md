@@ -8,7 +8,7 @@
 ### **Specialized Protocol Tools**
 
 #### **FTP/TELNET/POP/SSL**
-```bash
+```yaml
 ftp
 lftp
 ncftp
@@ -23,7 +23,7 @@ sslstrip, sslsplit
 ```
 
 #### **DNS Tools**
-```bash
+```yaml
 dig
 nslookup
 host
@@ -33,7 +33,7 @@ fierce
 ```
 
 #### **LDAP Tools**
-```bash
+```yaml
 ldapsearch
 ldapdomaindump
 windapsearch
@@ -42,7 +42,7 @@ JXplorer
 ```
 
 #### **SNMP Tools**
-```bash
+```yaml
 snmpwalk
 snmpget
 onesixtyone
@@ -50,14 +50,14 @@ snmp-check
 ```
 
 #### **SIP/VoIP**
-```bash
+```yaml
 sipgrep
 sipsak
 svcrack (SIP password cracker)
 ```
 
 #### **Wireless/RF Tools**
-```bash
+```yaml
 bluetoothctl
 hcitool
 ubertooth
@@ -76,7 +76,7 @@ wireshark (with WiFi capture)
 ## 🛠️ Specialized Challenge Tools
 
 ### **Kerberos/NTLM Authentication**
-```bash
+```yaml
 kinit
 klist
 GetUserSPNs
@@ -88,27 +88,27 @@ hashcat
 ```
 
 ### **CISCO Password Recovery**
-```bash
+```yaml
 cisco-decrypt (various implementations)
 john the ripper (with cisco rules)
 ```
 
 ### **GSM (Global System for Mobile)**
-```bash
+```yaml
 airprobe
 wireshark with GSM plugin
 kalibrate-rtl
 ```
 
 ### **WEP/WPA/WPA2/WPA3**
-```bash
+```yaml
 aircrack-ng suite (airmon-ng, airodump-ng, aireplay-ng)
 hashcat
 hcxpcapngtool
 ```
 
 ### **ARP Spoofing/MitM**
-```bash
+```yaml
 # ARP spoofing
 arpspoof, ettercap
 driftnet (image capture)
@@ -122,7 +122,7 @@ bettercap
 ## 🔧 Programming/Scripting Tools
 
 ### **Python with Essential Libraries**
-```bash
+```yaml
 - scapy (packet manipulation)
 - impacket (network protocols)
 - pwntools (CTF framework)

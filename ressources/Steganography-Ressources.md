@@ -43,7 +43,7 @@ See [Cracking-ressources.md](Cracking-Ressources.md)
 ## 🔧 Programming & Scripting Tools
 
 ### Python Libraries
-```bash
+```yaml
 - stegano
 - pillow (PIL)
 - numpy

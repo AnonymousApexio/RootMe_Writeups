@@ -1,4 +1,5 @@
 # HTML - Disabled Buttons
+---
 **Category:** Web-Client  
 **Points:** 5  
 **Difficulty:** Very Easy  
@@ -40,5 +41,5 @@ Delete the disabled attribute.
 Typed a random input into the auth-login input and pressed on "authbutton".
 
 ### Step 5:
-Get the flag and solve the challenge:
+Get the flag and solve the challenge:  
 "Member access granted! The validation password is X"

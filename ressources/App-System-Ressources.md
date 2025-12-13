@@ -1,7 +1,7 @@
 ## 🛠️ Essential Tools by Category
 
 ### **1. Debuggers & Disassemblers**
-```bash
+```yaml
 # Primary Debugger
 gdb (GNU Debugger)
 - gdb-peda (Python Exploit Development Assistance)
@@ -19,7 +19,7 @@ readelf - ELF file analysis
 ```
 
 ### **2. Binary Analysis Tools**
-```bash
+```yaml
 # File identification
 file - Identify file type
 strings - Extract strings from binary
@@ -36,7 +36,7 @@ patchelf - Modify ELF binaries
 ```
 
 ### **3. Exploitation Frameworks**
-```bash
+```yaml
 # Python-based exploitation
 pwntools - CTF framework & exploit development
 angr - Binary analysis platform
@@ -49,7 +49,7 @@ libc-database - Libc database for offsets
 ```
 
 ### **4. Architecture-Specific Tools**
-```bash
+```yaml
 # x86/x64
 gdb-multiarch - Multi-architecture GDB
 qemu-x86_64 - x64 emulation
@@ -70,7 +70,7 @@ qemu-riscv64 - RISC-V emulation
 ```
 
 ### **5. Heap Exploitation Tools**
-```bash
+```yaml
 # Heap analysis
 heap-viewer - Visualize heap layout
 villoc - Heap visualization
@@ -82,7 +82,7 @@ gef-heap - Heap commands for GEF
 ```
 
 ### **6. Kernel Exploitation
-```bash
+```yaml
 # Kernel debugging
 kgdb - Kernel debugger
 qemu-system-* - Full system emulation

@@ -1,14 +1,14 @@
 ## 🛠️ Essential Forensic Tools
 
 ### **Memory Analysis**
-```bash
+```yaml
   - volatility3
   - rekall
   - bulk_extractor
 ```
 
 ### **Network Analysis**
-```bash
+```yaml
   - wireshark
   - tcpdump
   - tshark
@@ -18,7 +18,7 @@
 ```
 
 ### **Disk & File Analysis**
-```bash
+```yaml
   - sleuthkit
   - autopsy
   - foremost
@@ -30,7 +30,7 @@
 ```
 
 ### **Log Analysis**
-```bash
+```yaml
   - logwatch
   - lnav
   - goaccess
@@ -38,7 +38,7 @@
 ```
 
 ### **Windows Forensics**
-```bash
+```yaml
   - regripper
   - python3-pip
     - python-registry
@@ -62,7 +62,7 @@
 - **CapAnalysis** - Web-based pcap analysis
 
 ### **Windows AD & LDAP Challenges**
-```bash
+```yaml
   - impacket-scripts
   - bloodhound
   - bloodhound-python
@@ -71,7 +71,7 @@
 ```
 
 ### **Docker & Container Forensics**
-```bash
+```yaml
   - docker.io
   - dive (docker image analysis)
   - trivy (vulnerability scanner)
@@ -82,7 +82,7 @@
 ```
 
 ### **Mobile Forensics (Android/iOS)**
-```bash
+```yaml
   - adb (Android Debug Bridge)
   - sqlitebrowser
   - jadx (Dex to Java decompiler)
@@ -92,7 +92,7 @@
 ```
 
 ### **Steganography & File Carving**
-```bash
+```yaml
   - steghide
   - exiftool
   - strings
@@ -109,7 +109,7 @@ See [Cryptanalysis-Ressources.md](Cryptanalysis-Ressources.md)
 ## 🎯 Specific Challenge Tools
 
 ### **Command & Control Series**
-```bash
+```yaml
 - YARA (malware pattern matching)
 - Suricata (IDS)
 - Snort (IDS)
@@ -118,7 +118,7 @@ See [Cryptanalysis-Ressources.md](Cryptanalysis-Ressources.md)
 ```
 
 ### **Web Log Analysis**
-```bash
+```yaml
   - goaccess
   - awstats
   - logcheck
@@ -126,7 +126,7 @@ See [Cryptanalysis-Ressources.md](Cryptanalysis-Ressources.md)
 ```
 
 ### **Ransomware & Malware Analysis**
-```bash
+```yaml
   - radare2
   - ghidra
   - cutter
@@ -139,14 +139,14 @@ See [Cryptanalysis-Ressources.md](Cryptanalysis-Ressources.md)
 ```
 
 ### **macOS & iOS Forensics**
-```bash
+```yaml
 - Plist Editor (property list files)
 - SQLite Browser (database analysis)
 - iOS Backup Analyzer tools
 ```
 
 ## 🐍 Python Libraries for Forensics
-```bash
+```yaml
   - pytsk3 (The Sleuth Kit bindings)
   - dfvfs (Digital Forensics Virtual File System)
   - libscca-python (Windows Prefetch)

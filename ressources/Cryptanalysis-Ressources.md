@@ -1,7 +1,7 @@
 ## 🛠️ Essential Cryptanalysis Tools
 
 ### **Encoding/Decoding Tools**
-```bash
+```yaml
 # ASCII/Text conversion
 xxd, hexdump, od
 
@@ -10,7 +10,7 @@ uudecode
 ```
 
 ### **Hash Cracking**
-```bash
+```yaml
 john
 hashcat
 hashid # Identify hashes formats
@@ -20,7 +20,7 @@ hashid # Identify hashes formats
 - **MD5/SHA-2/SHA-3:** Hashcat, online crackers
 
 ### **Classical Ciphers**
-```bash
+```yaml
 # Python with cryptography libraries
 pycryptodome
 cryptography
@@ -41,7 +41,7 @@ cryptography
 - **Side Channel Attacks:** Custom analysis scripts
 
 ### **RSA Cryptanalysis**
-```bash
+```yaml
 gmpy2
 pycryptodome
 sympy
@@ -54,7 +54,7 @@ factordb-pycli
 - **Padding Attacks:** Custom Python
 
 ### **Advanced Tools**
-```bash
+```yaml
 # Comprehensive CTF tool
 https://github.com/Ganapati/RsaCtfTool.git
 
@@ -69,35 +69,35 @@ numpy  # for linear algebra
 ### **Specialized Tools by Challenge Type**
 
 #### **DSA/ECDSA Implementation Errors**
-```bash
+```yaml
 ecdsa
 gmpy2
 ```
 
 #### **Shamir Secret Sharing**
-```bash
+```yaml
 sssa
 ```
 
 #### **Stream Ciphers & PRNG**
-```bash
+```yaml
 randcrack  # for MT19937 prediction
 ```
 
 #### **Elliptic Curve Cryptography**
-```bash
+```yaml
 ecpy
 tinyec
 ```
 
 #### **Block Cipher Cryptanalysis**
-```bash
+```yaml
 sageMath  # for advanced math
 # For FEAL, AES weakened variants
 ```
 
 ### **Programming Environment Setup**
-```bash
+```yaml
 # Essential Python packages
 pycryptodome
 gmpy2
