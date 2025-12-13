@@ -1,5 +1,8 @@
 # HTTP - User-agent
-**Category:** Web-Server | **Points:** 10 | **Difficulty:** Very Easy  
+---
+**Category:** Web-Server  
+**Points:** 10  
+**Difficulty:** Very Easy  
 **Link:** https://www.root-me.org/en/Challenges/Web-Server/HTTP-User-agent
 
 ## 📋 Description:
@@ -30,9 +33,10 @@ Originally, user-agents were used for server delivery to optimize content for a 
 
 According to RFC2616, user-agent is formatted like: User-Agent = "User-Agent" ":" 1*( product | comment ).
 
-Nowadays for browsers, it's often: 
+Nowadays for browsers, it's often:
+```yaml
 User-Agent: <browser_name>/<version> (<system-information>) <platform> (<platform-details>) <extensions>
-
+```
 
 ### Step 2: 
 The way I tried to do it is by using DevTools.

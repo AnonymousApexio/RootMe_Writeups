@@ -8,7 +8,7 @@
 A form is disabled and can not be used. It’s up to you to find a way to use it.
 
 ## 🔍 Reconnaissance:
-1. Opened the challenge page 
+1. Opened the challenge page  
 ![Image of the page](screen.png)
 2. Right-clicked and selected "View Page Source"
 3. Scanned through the HTML code

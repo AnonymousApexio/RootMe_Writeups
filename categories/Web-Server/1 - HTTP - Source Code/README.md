@@ -9,7 +9,7 @@
 Don't search too far, an HTML challenge
 
 ## 🔍 Reconnaissance:
-1. Opened the challenge page 
+1. Opened the challenge page  
 ![Omage of the page](screen.png)
 2. Right-clicked and selected "View Page Source"
 3. Scanned through the HTML code and found relevant informations

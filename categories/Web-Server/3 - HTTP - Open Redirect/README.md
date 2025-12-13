@@ -1,4 +1,5 @@
 # HTTP - Open redirect
+---
 **Category:** Web-Server   
 **Points:** 10  
 **Difficulty:** Very Easy  
@@ -27,13 +28,13 @@ Identifying what "h" is. At first glance it looked like an hex value so I used C
 So I used an hash identfier tool called "hashid" (See [Cryptanalysis.md](../../../ressources/Cryptanalysis-Ressources.md))
 ```bash
 └─$ hashid <parameter> HASH
-Analyzing 'HASH'
+Analyzing '<HASH>'
 <TRUNCATED>
 [+] <HASH>
 </TRUNCATED>
 ```
 
-From this, I knew the hash was <span color="green">HASH format</span>.
+From this, I knew the hash was <<span style="color:green">HASH format</span>>.
 
 ### Step 2: 
 Next, I just had to somehow change the redirection value to my own.
@@ -41,9 +42,9 @@ Next, I just had to somehow change the redirection value to my own.
 For this I used burpsuit: (You can also totally just modify the hard coded values in the HTML, little problem, it skips the flag too fast to take it)
 ![Burpsuit Image](screen2.png)
 
-I just had to change the "<kbd>?url=</kbd>" and "<kbd>&h=</kbd>" values to what I wanted, so I hashed "A" into <kbd>HASH format</kbd> format, put "A" in the URL parameter and the hash into the "<kbd>h</kbd>" parameter.
+I just had to change the "<kbd>?url=</kbd>" and "<kbd>&h=</kbd>" values to what I wanted, so I hashed "A" into <kbd><<span style="color:green">HASH format</span>></kbd> format, put "A" in the URL parameter and the hash into the "<kbd>h</kbd>" parameter.
 
-?url=<kbd>A</kbd>&h=<kbd>HASH format</kbd>
+?url=<kbd>`A`</kbd>&h=<kbd><<span style="color:green">HASH format</span>></kbd>
 
 ### Step 3:
 Extract the flag from the response. 
